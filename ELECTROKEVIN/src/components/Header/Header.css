@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #59735A;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 30px 30px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.logo_name {
+    font-size: 16px;
+    color: wheat;
+}
+
+.nav_links {
+    display: flex;
+    list-style: none;
+}
+
+.nav_links .li_links {
+    padding: 0 10px;
+}
+
+.nav_link {
+    text-decoration: none;
+    color: wheat;
+}
+
+.nav_links .li_links .nav_link{
+    transition: all .4s ease;
+}
+
+.nav_links .li_links .nav_link:hover{
+    color: white;
+}
+
+.nav_link_button{
+    background-color: #072108;
+    padding: 2px 5px 2px 8px;
+    margin-bottom: 20px;
+    border: none;
+    transition: all .3s ease;
+    border-radius: 10px;
+}
+
+.nav_link_button:hover{
+    background-color: #854b4b;
+}
+
+.size-img-buton-link {
+    font-size: 31px;
+}
+
+
+
+
+
+
+/* .Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    padding: 5px 10%;
+
+}
+
+.Header .logo{
+    cursor: pointer;
+}
+
+.Header .logo .logo_name {
+    font-size: 25px;
+    transition: all 0.3s;
+    color: wheat;
+}
+
+.Header .logo .logo_name:hover {
+    transform: scale(1.2);
+}
+
+.Header .nav_links li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.Header .nav_links li:hover {
+    transform: scale(1.1);
+}
+
+.Header .nav_links .nav_link {
+    font-size: 20px;
+}
+
+.Header .nav_links li a:hover {
+    color: white;
+}
+
+.Header .nav_link {
+    text-decoration: none;
+    color: wheat;
+}
+ */

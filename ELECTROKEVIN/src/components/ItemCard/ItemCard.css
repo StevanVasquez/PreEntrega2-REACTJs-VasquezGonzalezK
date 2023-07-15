@@ -1,0 +1,50 @@
+.cards {
+    width: 300px;
+    margin: 20px;
+    background-color: rgb(41, 49, 44);
+    border-radius: 15px;
+    padding-bottom: 20px;
+}
+
+.card_img img {
+    width: 100%;
+    border: 15px rgb(41, 49, 44) solid;
+    border-radius: 40px;
+}
+
+
+.card_body .card_title {
+    text-align: center;
+    margin-bottom: 5px;
+    padding: 6px;
+    color: whitesmoke;
+    font-size: 19px;
+}
+
+.card_body .card_description {
+    text-align: center;
+    margin-bottom: 6px;
+    padding: 6px;
+    color: whitesmoke;
+    font-size: 17px;
+}
+
+.card_body .card_price {
+    text-align: center;
+    margin-bottom: 6px;
+    padding: 5px;
+    color: whitesmoke;
+    font-size: 15px;
+}
+
+.card_boton_link {
+    padding-left: 123px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.cards:hover {
+    box-shadow: 3.9px 7.8px 7.8px hsl(0deg 0% 0% / 0.38);
+}
+
+

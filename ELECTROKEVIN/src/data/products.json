@@ -1,0 +1,111 @@
+[
+    
+    {
+        "id": 1,
+        "name": "Computador Asus 2023",
+        "description": "Vivobook X",
+        "precio": 3100000,
+        "img": "../src/img/laptops/01.laptop_asus.jpeg",
+        "category": "computadoras",
+
+        "name_detail": "Asus Vivobook X AMD ryzen 5",
+        "model": "TTX300-AS",
+        "marca": "ASUS"
+    },
+    
+    {
+        "id": 2,
+        "name": "Computador HP 2023",
+        "description": "pavilion intel core i5",
+        "precio": 3450000,
+        "img": "../src/img/laptops/02.laptop_hp.jpeg",
+        "category": "computadoras",
+
+        "name_detail": "HP Pavilion Intel Core I5",
+        "model": "POZ3674-HP",
+        "marca": "HP"
+    },
+
+    {
+        "id": 3,
+        "name": "Parlante inalambrico Marshall",
+        "description": "stockwerk II 50w",
+        "precio": 1170000,
+        "img": "../src/img/parlantes_inalambricos/01.Marshall.jpeg",
+        "category": "parlantes",
+
+        "name_detail": "Marshall Stockwerk II",
+        "model":"WRZ5566-MAR",
+        "marca": "Marshall"
+
+    },
+
+    {
+        "id": 4,
+        "name": "Parlante inalambrico JBL",
+        "description": "Partybox 110 240w",
+        "precio": 2000000,
+        "img": "../src/img/parlantes_inalambricos/03.JBL.jpeg",
+        "category": "parlantes",
+
+        "name_detail": "JBL Partybox 110",
+        "model":"ZPL34567-JBL",
+        "marca": "JBL"
+
+    },
+
+    {
+        "id": 5,
+        "name": "Telefono Samsung",
+        "description": "Galaxy S23 Ultra",
+        "precio": 6640000,
+        "img": "../src/img/smartphones/02.SamsungS23Ultra.jpeg",
+        "category": "celulares",
+
+        "name_detail": "SAMSUNG Galaxy S23 Ultra",
+        "model":"SM23HYZ-SAM",
+        "marca": "SAMSUNG"
+
+    },
+
+    {
+        "id": 6,
+        "name": "Telefono Apple",
+        "description": "Iphone 14 Pro Max",
+        "precio": 7500000,
+        "img": "../src/img/smartphones/01.Iphone14.jpeg",
+        "category": "celulares",
+
+        "name_detail": "IPHONE 14 PRO MAX",
+        "model":"ASD45670-APP",
+        "marca": "APPLE"
+
+    },
+
+    {
+        "id": 7,
+        "name": "Televisor LG 2023",
+        "description": "Nanocell 70pulg 4k-UHD",
+        "precio": 3200000,
+        "img": "../src/img/televisores/02.tv_lg.jpeg",
+        "category": "televisores",
+
+        "name_detail": "TV LG NANOCELL 70PUL",
+        "model":"NANO3322-LG",
+        "marca": "LG"
+    },
+
+    {
+        "id": 8,
+        "name": "Televisor SAMSUNG 2023",
+        "description": "Crystal 60pulg 4k-UHD",
+        "precio": 2450000,
+        "img": "../src/img/televisores/01.tv_samsung.jpeg",
+        "category": "televisores",
+
+        "name_detail": "TV SAMSUNG CRYSTAL 60PUL",
+        "model":"CRYTO3378-SAM",
+        "marca": "SAMSUNG"
+    }
+
+]
