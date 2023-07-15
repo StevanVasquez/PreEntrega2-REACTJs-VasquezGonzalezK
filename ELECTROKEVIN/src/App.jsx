@@ -1,7 +1,7 @@
 import { Header } from "./components/Header/Header"
 import ItemListContainer from "./components/ItemListContainer/ItemListContainer"
 import ItemDetailContainer from "./components/itemDetailContainer/ItemDetailContainer"
-import {BrowserRouter, Routes, Route} from "react-router-dom"
+import {BrowserRouter, Routes, Route, Navigate} from "react-router-dom"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./App.css"
 
@@ -23,6 +23,7 @@ function App() {
 
             <Route path="/detail/:itemId" element={<ItemDetailContainer/>}></Route>
 
+            <Route path="*" element={ <Navigate to="/"/> }/>
 
         </Routes>
 
